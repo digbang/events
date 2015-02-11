@@ -1,6 +1,6 @@
 <?php namespace Digbang\Events;
 
-class EventedTrait
+trait EventedTrait
 {
     /**
      * @type array
