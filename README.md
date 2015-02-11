@@ -15,7 +15,32 @@ class Foo
 }
 ```
 
-Then, create some interesting events for your domain, and raise them in your `Entities`:
+Then, create some interesting events for your domain:
+
+```php
+namespace App\Domain\Events;
+
+/**
+ * Event objects are usually data transfer objects.
+ */
+class FooCreatedEvent
+{
+    private $foo;
+    
+    public function __construct(Foo $foo)
+    {
+        $this->foo = $foo;
+    }
+    
+    public function getFoo()
+    {
+        return $this->foo;
+    }
+}
+```
+
+
+And raise them in your `Entities`:
 
 ```php
 // in src/Domain/Entities/Foo.php
