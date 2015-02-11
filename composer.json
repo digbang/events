@@ -1,0 +1,14 @@
+{
+    "name": "digbang/events",
+    "description": "Digbang Events helpers",
+    "require": {
+        "illuminate/events": "~4.2"
+    },
+    "license": "Proprietary",
+    "authors": [
+        {
+            "name": "Guido Contreras Woda",
+            "email": "gcontreras@digbang.com"
+        }
+    ]
+}
