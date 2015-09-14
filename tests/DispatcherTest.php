@@ -1,4 +1,5 @@
-<?php namespace Tests;
+<?php
+namespace Tests;
 
 use Digbang\Events\Dispatcher;
 use Illuminate\Events\Dispatcher as LaravelDispatcher;

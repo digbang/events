@@ -1,4 +1,5 @@
-<?php namespace Tests;
+<?php
+namespace Tests;
 
 class EventedTraitTest extends \PHPUnit_Framework_TestCase
 {

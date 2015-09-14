@@ -1,4 +1,5 @@
-<?php namespace Digbang\Events;
+<?php
+namespace Digbang\Events;
 
 trait EventedTrait
 {

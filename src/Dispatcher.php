@@ -1,6 +1,7 @@
-<?php namespace Digbang\Events;
+<?php
+namespace Digbang\Events;
 
-use Illuminate\Events\Dispatcher as LaravelDispatcher;
+use Illuminate\Contracts\Events\Dispatcher as LaravelDispatcher;
 
 /**
  * Proxy of the laravel event dispatcher.
@@ -76,8 +77,8 @@ class Dispatcher
     }
 
     /**
-     * @param $name
-     * @param $arguments
+     * @param string $name
+     * @param array $arguments
      *
      * @return mixed
      */

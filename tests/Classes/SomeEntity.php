@@ -1,4 +1,5 @@
-<?php namespace Tests\Classes;
+<?php
+namespace Tests\Classes;
 
 use Digbang\Events\EventedTrait;
 
