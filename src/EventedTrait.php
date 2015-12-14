@@ -4,7 +4,7 @@ namespace Digbang\Events;
 trait EventedTrait
 {
     /**
-     * @type array
+     * @var string[]
      */
     protected $pendingEvents = [];
 
@@ -17,7 +17,7 @@ trait EventedTrait
     }
 
     /**
-     * @return array
+     * @return string[]
      */
     public function releaseEvents()
     {
